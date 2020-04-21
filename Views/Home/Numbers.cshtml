@@ -1,0 +1,10 @@
+@using ViewModelFun.Models
+@model NumberArray
+
+<div>
+    <h1>Here are some numbers!</h1>
+    @foreach (int num in @Model.numArr)
+    {
+        <p>@num</p>
+    }
+</div>
